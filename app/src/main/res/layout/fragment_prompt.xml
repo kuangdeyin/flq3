@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/bg_gray"
+             tools:context="com.ifenglian.rocklet.ui.fragment.No_resultFragment">
+
+
+    <TextView
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt_fragment_text_title"/>
+
+    <TextView
+       android:textScaleX="1.0"
+       android:lineSpacingMultiplier="2"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt_fragment_text_content"/>
+
+    <Button
+        android:id="@+id/prompt_fragment_re_add"
+        android:layout_marginTop="30dp"
+        style="@style/bg_btn_style"
+        android:text="@string/prompt_fragment_btn_text"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_button_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

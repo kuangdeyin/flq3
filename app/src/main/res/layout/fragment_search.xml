@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/bg_gray"
+              tools:context="com.ifenglian.rocklet.ui.fragment.SearchFragment">
+
+
+    <ImageView
+        android:id="@+id/add_icon"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/search_advice_log"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:text="@string/serach"
+        android:textSize = "12sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:lineSpacingExtra="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_search_fragment_report_content"/>
+    <LinearLayout
+       android:layout_marginTop="25dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ImageView
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/search_phone"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/search_gesture"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:src="@drawable/search_gesture"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

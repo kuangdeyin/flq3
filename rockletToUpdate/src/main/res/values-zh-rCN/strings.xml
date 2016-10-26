@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="title_tip">提示</string>
+    <string name="msg_has_new_version">[%1s]有更新，是否安装最新版本？</string>
+    <string name="btn_ok">确定</string>
+	<string name="btn_cancel">取消</string>
+	<string name="msg_update_done">更新成功！</string>
+	<string name="msg_update_failed">更新失败！</string>
+    <string name="app_name">小石防丢</string>
+</resources>

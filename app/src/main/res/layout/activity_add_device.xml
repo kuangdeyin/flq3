@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.AddOrModifyDeviceActivity">
+
+    <RelativeLayout style="@style/activity_top_bar_style">
+
+        <ImageView
+            android:id="@+id/add_device_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+            android:src="@drawable/return_back" />
+
+        <TextView
+            android:id="@+id/add_device_title"
+            style="@style/activity_title_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/title_activity_add_device" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/add_frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></FrameLayout>
+
+
+</LinearLayout>

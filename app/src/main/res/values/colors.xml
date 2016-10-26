@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--应用主题颜色-->
+    <color name="app_theme">#51c5c4</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!--黑色-->
+    <color name="black">#000000</color>
+    <!-- 按钮颜色——绿色 -->
+    <color name="lawn_green">#88d769</color>
+    <!-- 绿色 -->
+    <color name="green">#008000</color>
+
+    <!-- 灰色 -->
+    <color name="gray">#808080</color>
+
+    <!--灰色底色-->
+    <color name="bg_gray">#f6f6f6</color>
+
+
+
+</resources>
